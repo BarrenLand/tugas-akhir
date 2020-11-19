@@ -111,7 +111,7 @@ else:
             f.write("-------------------------------\n")
             f.write("Total bayar                   : Rp. %s\n" % (locale.format_string('%.2f', total, True)))
             f.write("-------------------------------\n")
-            f.write("Metode pembayaran             : %”, % tran\n")
+            f.write("Metode pembayaran             : %s\n" % tran)
             f.write("Biaya admin                   : Rp. %s\n" % (locale.format_string('%.2f', adm, True)))
             f.write("Total setelah admin           : Rp. %s\n" % (locale.format_string('%.2f', ttl, True)))
             f.write("-------------------------------\n")
