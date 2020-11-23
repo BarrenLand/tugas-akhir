@@ -126,7 +126,7 @@ else:
             f.write("Terima kasih\n")
             f.close()
 
-            extension1 = ".txt"
+            extension1 = ".doc"
             tst1 = datetime.datetime.now().isoformat("-").split(".")[0].replace(":", "-")
             formatfile1 = 'database '+nama+' '+tst+extension1
             tar1 = tarfile.open(formatfile1, "w")
